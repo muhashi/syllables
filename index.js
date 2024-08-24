@@ -1,4 +1,4 @@
-import { dictionary } from 'cmu-pronouncing-dictionary'
+import { dictionary } from 'cmu-pronouncing-dictionary';
 import extractWords from 'extractwords';
 
 
