@@ -1,0 +1,44 @@
+{
+    "name": "syllables",
+    "version": "1.0.0",
+    "description": "Count syllables in text using the CMU Pronouncing Dictionary",
+    "license": "CC0-1.0",
+    "repository": "muhashi/syllables",
+    "author": {
+        "name": "muhashi",
+        "email": "muhamedoes+muhashi@gmail.com",
+        "url": "https://muhashi.com"
+    },
+    "type": "module",
+    "exports": "./index.js",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "test": "ava"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "syllables",
+        "parse",
+        "text",
+        "string",
+        "dictionary",
+        "find",
+        "syllable",
+        "language",
+        "natural language processing",
+        "linguistics",
+        "arpabet"
+    ],
+    "dependencies": {
+        "cmu-pronouncing-dictionary": "^3.0.0",
+        "extractwords": "^2.0.0"
+    },
+    "devDependencies": {
+        "ava": "^6.1.2"
+    }
+}
