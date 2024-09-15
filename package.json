@@ -10,16 +10,20 @@
         "url": "https://muhashi.com"
     },
     "type": "module",
-    "exports": "./index.js",
+    "exports": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+    },
     "sideEffects": false,
     "engines": {
         "node": ">=18"
     },
     "scripts": {
-        "test": "ava"
+        "test": "ava && tsc index.d.ts"
     },
     "files": [
-        "index.js"
+        "index.js",
+        "index.d.ts"
     ],
     "keywords": [
         "syllables",
@@ -39,6 +43,7 @@
         "extractwords": "^2.0.0"
     },
     "devDependencies": {
-        "ava": "^6.1.2"
+        "ava": "^6.1.2",
+        "typescript": "^5.6.2"
     }
 }

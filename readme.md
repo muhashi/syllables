@@ -46,8 +46,8 @@ Type: `object`
 
 ##### fallbackSyllablesFunction
 
-Type: `function` - `(word: string) => number`\
-Default: `null`
+Type: `(word: string) => number`\
+Default: `undefined`
 
 Fallback function used to calculate the syllable count of a word if the word is not in the dictionary. Must take a word as an input and return a number representing the number of syllables.
 
