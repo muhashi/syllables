@@ -1,6 +1,6 @@
 {
     "name": "syllables",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "Count syllables in text using the CMU Pronouncing Dictionary",
     "license": "CC0-1.0",
     "repository": "muhashi/syllables",
