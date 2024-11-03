@@ -1,4 +1,4 @@
-# syllables
+# syllables ![](https://badgen.net/npm/dt/syllables)
 
 > Count syllables in text using a dictionary
 
