@@ -1,6 +1,7 @@
-import { dictionary } from 'cmu-pronouncing-dictionary';
 import extractWords from 'extractwords';
+import cmudict from "@lunarisapp/cmudict";
 
+const cmuDict = cmudict.dict();
 
 export default function syllables(input, { fallbackSyllablesFunction = null } = {}) {
     if (typeof input !== 'string') {
@@ -15,10 +16,10 @@ export default function syllables(input, { fallbackSyllablesFunction = null } = 
     let syllables = 0;
 
     for (let word of words) {
-        const pronounciation = dictionary[word] ?? '';
+        const pronunciation = cmuDict[word]?.[0] ?? [];
 
-        if (pronounciation) {
-            const stresses = pronounciation.match(/[0-2]/g) ?? [];
+        if (pronunciation.length) {
+            const stresses = pronunciation.filter((phoneme) => /[0-2]/.test(phoneme));
             syllables += stresses.length;
         } else if (fallbackSyllablesFunction) {
             const fallbackSyllablesCount = fallbackSyllablesFunction(word);

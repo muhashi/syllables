@@ -1,6 +1,6 @@
 {
     "name": "syllables",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "Count syllables in text using the CMU Pronouncing Dictionary",
     "license": "CC0-1.0",
     "repository": "muhashi/syllables",
@@ -39,7 +39,7 @@
         "arpabet"
     ],
     "dependencies": {
-        "cmu-pronouncing-dictionary": "^3.0.0",
+        "@lunarisapp/cmudict": "^1.0.0",
         "extractwords": "^2.0.0"
     },
     "devDependencies": {

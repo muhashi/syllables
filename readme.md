@@ -2,7 +2,7 @@
 
 > Count syllables in text using a dictionary
 
-Counts the number of syllables in given text using the [CMU Pronouncing Dictionary](https://www.npmjs.com/package/cmu-pronouncing-dictionary), which contains over 134,000 words. This has the benefit of being much more accurate than algorithmic methods, but can fall short on less common words. Unknown words are provided a syllable count of 0.
+Counts the number of syllables in given text using the [CMU Pronouncing Dictionary](https://www.npmjs.com/package/@lunarisapp/cmudict), which contains over 134,000 words. This has the benefit of being much more accurate than algorithmic methods, but can fall short on less common words. Unknown words are provided a syllable count of 0.
 
 Alternatively, a fallback function can be used in the case a word is not in the dictionary. A function such as the [npm package that counts syllables algorithmically](https://www.npmjs.com/package/syllable) can be passed as an option.
 
