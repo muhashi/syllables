@@ -1,4 +1,4 @@
-# syllables ![NPM Downloads](https://img.shields.io/npm/dm/syllables)
+# syllables ![NPM Downloads](https://img.shields.io/npm/d18m/syllables.svg)
 
 > Count syllables in text using a dictionary
 
