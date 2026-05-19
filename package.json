@@ -43,7 +43,7 @@
         "extractwords": "^2.0.0"
     },
     "devDependencies": {
-        "ava": "^7.0.0",
+        "ava": "^8.0.1",
         "typescript": "^6.0.2"
     }
 }
